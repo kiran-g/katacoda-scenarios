@@ -25,7 +25,10 @@
       "text": "finish.md"
     },
     "assets":  { 
-        "host01": [ {"file": "files", "target": "/root"} ] 
+        "host01": [ 
+            {"file": "Makefile", "target": "/root/files"} ,
+            {"file": "hello.c", "target": "/root/files"} 
+     ] 
     }
   },
   "environment": {
