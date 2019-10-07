@@ -28,3 +28,8 @@ all:
 &nbsp;&nbsp;&nbsp;&nbsp;gcc -o hello -static hello.c
 </pre>
 
+<pre class="file" data-target="clipboard">
+all:
+&#09;gcc -o hello -static hello.c
+</pre>
+
