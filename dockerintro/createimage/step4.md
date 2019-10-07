@@ -4,6 +4,7 @@ Create an empty Dockerfile
  `Dockerfile`{{open}} (Click here)
  
 Copy the following code into it:
+<pre class="file" data-target="clipboard">
 FROM scratch
 ADD hello /
 CMD ["/hello"]
