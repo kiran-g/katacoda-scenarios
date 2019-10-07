@@ -13,3 +13,7 @@ CMD ["/hello"]
 Now build the docker image using the following command:
 `docker build --tag hello .`{{execute}}
 
+Run this image as a container:
+`docker run hello`{{execute}}
+
+
