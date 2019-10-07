@@ -7,7 +7,7 @@ Manage the running container instance
 
     `CID=$(docker ps -lq)`{{execute}}
     
-Excute shell in running contexainer 
+3. Excute shell in running contexainer 
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
