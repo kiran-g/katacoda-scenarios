@@ -13,5 +13,5 @@ all:
 Copy the following code into it:
 <pre class="file" data-target="clipboard">
 all:
-	gcc -o hello -static hello.c
+&emsp;gcc -o hello -static hello.c
 </pre>
