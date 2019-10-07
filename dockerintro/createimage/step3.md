@@ -19,7 +19,12 @@ all:
 Copy the following code into it:
 <pre class="file" data-target="clipboard">
 all:
-&emsp;gcc -o hello -static hello.c
+    	gcc -o hello -static hello.c
 </pre>
 
+
+<pre class="file" data-target="clipboard">
+all:
+&nbsp;&nbsp;&nbsp;&nbsp;gcc -o hello -static hello.c
+</pre>
 
