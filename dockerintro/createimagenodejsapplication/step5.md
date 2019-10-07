@@ -8,8 +8,15 @@ Create a docker image with the nodejs application part 2
 node_modules
 npm-debug.log
 </pre>
+
+4. Return to the main directory
+    
+    `cd ..`{{execute}}
+    
 3. Now build the docker image using the following command:
-`docker build --tag node-web-app .`{{execute}}
+
+    `docker build --tag node-web-app .`{{execute}}
 
 4. Run this image as a container:
-`docker run node-web-app`{{execute}}
+
+    `docker run node-web-app`{{execute}}
