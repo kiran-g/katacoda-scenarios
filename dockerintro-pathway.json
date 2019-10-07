@@ -4,7 +4,7 @@
   "courses": [
     {
       "course_id": "createimage",
-      "title": "Create Image using Dockerfile",
+      "title": "How to prepare a docker image for a binary application using Dockerfile",
       "description": ""
     }
   ]
