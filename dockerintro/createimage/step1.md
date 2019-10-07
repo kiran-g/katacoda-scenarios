@@ -1,11 +1,10 @@
 Lets start with docker installation
-## Task
 
-Clone our example repository that contains the set of documentation with the following command:
+1. Install docker:
 
 `apt install docker`{{execute}}
 
-Verify docker installation
+2. Verify docker installation
 
 `docker --version`{{execute}}
 
