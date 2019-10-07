@@ -1,16 +1,31 @@
-Build the C application using Makfile
+Create the nodejs appliation Part 2
 
-1. Create an empty Makefile
- `Makefile`{{open}} (Click here)
- 
-2. Copy the following code into it:
-<pre class="file" data-target="clipboard">
-all:
-&#09;gcc -o hello -static hello.c
-</pre>
 
-3. Now build the application:
-`make`{{execute}}
+6. Create the main nodejs application file
 
-4. Test the application by running it:
-`./hello`{{execute}}
+    `files/server.js`{{open}} (Click here)
+
+7. Copy the following code into this file
+
+    <pre class="file" data-target="clipboard">
+    'use strict';
+
+    const express = require('express');
+
+    // Constants
+    const PORT = 80;
+    const HOST = '0.0.0.0';
+
+    // App
+    const app = express();
+    app.get('/', (req, res) => {
+      res.send('Hello world from Nodejs\n');
+    });
+
+    app.listen(PORT, HOST);
+    console.log(`Running on http://${HOST}:${PORT}`);
+    </pre>
+
+8. Test the application
+
+    `node server.js`{{execute}}
