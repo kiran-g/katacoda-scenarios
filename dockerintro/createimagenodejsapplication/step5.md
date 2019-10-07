@@ -17,10 +17,14 @@ npm-debug.log
 
     `docker build --tag node-web-app .`{{execute}}
 
-4. Run this image as a container:
+4. Verify using docker command
+    
+    `docker images`{{execute}}
+
+5. Run this image as a container:
 
     `docker run -p 80:80 node-web-app`{{execute}}
     
-9. Access the sample webapp in browser
+6. Access the sample webapp in browser
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
