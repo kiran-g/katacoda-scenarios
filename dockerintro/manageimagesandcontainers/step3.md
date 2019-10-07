@@ -17,4 +17,8 @@ Commit changes made to a running container
 4. Create an HTML file and copy it to the running container:
 
     `index2.html`{{open}} (Click here)  
-    `docker cp   index2.html $CID:/usr/share/nginx/html/`{{execute}}
+    `docker cp   code/index2.html $CID:/usr/share/nginx/html/`{{execute}}
+    
+5. Verify the webpage at:
+
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index2.html
