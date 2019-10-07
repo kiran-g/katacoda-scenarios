@@ -11,14 +11,17 @@
       "course_id": "createimagenodejsapplication",
       "title": "How to prepare a docker image for a basic nodejs application with npm dependencies",
       "description": ""
-    }
- ,
+    } ,
     {
-      "course_id": "manageimages",
-      "title": "How to manage docker images",
+      "course_id": "manageimagesandcontainers",
+      "title": "How to manage docker images and containers",
       "description": ""
-    }   
-    
+    }  ,
+    {
+      "course_id": "modifyingimages",
+      "title": "How to modify existing containers without dockerfile",
+      "description": ""
+    }    
     
   ]
 }
