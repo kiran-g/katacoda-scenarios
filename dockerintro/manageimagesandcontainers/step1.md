@@ -18,6 +18,6 @@ Docker install and run nginx webserver image and view the default webpage
  
 5. Access the sample webpage in browser
 
-    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index.html
 
 
