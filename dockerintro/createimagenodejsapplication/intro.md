@@ -1,4 +1,4 @@
-Steps to create the docker image for a binary application without any external runtime requirements
+Steps to create the docker image for a nodejs application with the nodejs runtime and npm dependencies
 
 Steps:
 * Install docker.
