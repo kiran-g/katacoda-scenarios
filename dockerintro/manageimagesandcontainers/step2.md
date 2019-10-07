@@ -14,7 +14,7 @@ Manage the running container instance
     Note: Navigate the flesysten and view the files and processes
 4. Create a new HTML file inside the docker container and add some random text
 
-    `vi /usr/share/nginx/html/index1.html`{{execute}}
+    `echo "WEBTEST" > /usr/share/nginx/html/index1.html`{{execute}}
     
 5. Now try accessing the webpage at:
 
