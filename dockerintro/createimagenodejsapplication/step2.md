@@ -22,7 +22,7 @@ Create the nodejs appliation
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
-    "run": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.1"
@@ -61,4 +61,4 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
 8. Test the application
 
-`npm run`{{execute}}
+`node server.js`{{execute}}
