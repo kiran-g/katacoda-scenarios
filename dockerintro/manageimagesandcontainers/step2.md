@@ -20,7 +20,7 @@ Manage the running container instance
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index1.html
     
-6. Exit the docker shell using CTRL+C
+6. Exit the docker shell using 'exit' command
 
     `exit`{{execute}}
 
