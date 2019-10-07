@@ -24,7 +24,7 @@ Create a docker image with the nodejs application part 1
     # Bundle app source
     COPY files/ .
 
-    EXPOSE 8080
+    EXPOSE 80
     CMD [ "node", "server.js" ]
     </pre>
 
