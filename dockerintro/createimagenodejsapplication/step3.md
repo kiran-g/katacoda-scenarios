@@ -34,6 +34,6 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
     
-10. Press CTRL+C in the terminal window to kill the nodejs app to continue
+10. Kill the nodejs app to continue. See if clicking below works. Else manually click CTRL+C
     
-    `clear`{{execute interrupt}}
+    `some-command`{{execute interrupt}}
