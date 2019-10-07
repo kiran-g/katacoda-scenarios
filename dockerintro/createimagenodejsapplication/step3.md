@@ -32,5 +32,5 @@ Create the nodejs appliation Part 2
     
 9. Access the sample webapp in browser
 
-    https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
     
