@@ -7,12 +7,11 @@ First 'cd' into the code directory
 Create an empty 'C' file
  `hello.c`{{open}} (Click here)
  
- Copy the following code into it:
-~~~~
+Copy the following code into it:
+<pre class="file" data-target="clipboard">
 #include<stdio.h>
 int main()
 {
 	printf("Hello World!!\n");
 }
-~~~~
-
+</pre>
