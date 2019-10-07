@@ -9,7 +9,7 @@ Create an empty 'C' file
  
 Copy the following code into it:
 <pre class="file" data-target="clipboard">
-#include<stdio.h>
+#include&lt;stdio.h&gt;
 int main()
 {
 	printf("Hello World!!\n");
