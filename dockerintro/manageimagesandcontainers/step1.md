@@ -1,11 +1,23 @@
-Lets start with docker installation
+Docker install and run nginx webserver image and view the default webpage 
 
-1. Install docker:
+1. List local images
 
-`apt install docker`{{execute}}
+    `docker images`{{execute}}
 
-2. Verify docker installation
+2. Pull nginx webserver image
 
-`docker --version`{{execute}}
+    `docker pull nginx:alpine`{{execute}}
+    
+3. Verify that the new image is downloded    
+
+    `docker images`{{execute}}
+    
+4. Run the image        
+
+    `docker run -d -p 80:80  nginx:alpine`{{execute}}
+ 
+5. Access the sample webpage in browser
+
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 

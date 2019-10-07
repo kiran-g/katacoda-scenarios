@@ -1,4 +1,4 @@
-Docker commands to manage docker images
+Docker commands to manage docker images and containers
 
 Steps:
 

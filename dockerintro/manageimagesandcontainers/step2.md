@@ -1,8 +1,12 @@
-Docker image commands
+Manage the running container instance
+1. List running containers
 
-1. List local images
+    `docker ps`{{execute}}
+    
+2. Excute shell in running contexainer 
 
-    `docker images`{{execute}}
+    `docker exec -it CONTAINER_ID   /bin/bash`{{execute}}    
+    Note: Navigate the flesysten and view the files
 
 
 
