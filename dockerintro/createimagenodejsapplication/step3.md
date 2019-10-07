@@ -29,3 +29,8 @@ Create the nodejs appliation Part 2
 8. Test the application
 
     `node server.js`{{execute}}
+    
+9. Access the sample webapp in browser
+
+    https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
+    
