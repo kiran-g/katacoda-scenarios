@@ -16,11 +16,6 @@
       "course_id": "manageimagesandcontainers",
       "title": "How to manage docker images and containers",
       "description": ""
-    }  ,
-    {
-      "course_id": "modifyingimages",
-      "title": "How to modify existing containers without dockerfile",
-      "description": ""
     }    
     
   ]
