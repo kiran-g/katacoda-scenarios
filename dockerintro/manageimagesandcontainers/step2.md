@@ -12,12 +12,13 @@ Manage the running container instance
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
     Note: Navigate the flesysten and view the files and processes
-4. Edit the default HTML file inside the docker container
+4. Create a new HTML file inside the docker container and add some random text
 
-    `vi /usr/share/nginx/html/index.html`{{execute}}
+    `vi /usr/share/nginx/html/index1.html`{{execute}}
+    
 5. Now try accessing the webpage at:
 
-    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index.html
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index1.html
 
 
 
