@@ -12,5 +12,13 @@
       "title": "How to prepare a docker image for a basic nodejs application with npm dependencies",
       "description": ""
     }
+ ,
+    {
+      "course_id": "manageimages",
+      "title": "How to manage docker images",
+      "description": ""
+    }   
+    
+    
   ]
 }
