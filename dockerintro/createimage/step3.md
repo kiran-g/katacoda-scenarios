@@ -12,9 +12,6 @@ all:
 
 Copy the following code into it:
 <pre class="file" data-target="clipboard">
-#include<stdio.h>
-int main()
-{
-	printf("Hello World!!\n");
-}
+all:
+	gcc -o hello -static hello.c
 </pre>
