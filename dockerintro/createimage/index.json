@@ -24,11 +24,7 @@
     "finish": {
       "text": "finish.md"
     },
-    "assets":  { 
-        "client": [ 
-            {"file": "*", "target": "/root/"}
-     ] 
-    }
+    "assets": { "client": [ {"file": "Makefile", "target": "/root"} ] }
   },
   "environment": {
     "uilayout": "editor-terminal"
