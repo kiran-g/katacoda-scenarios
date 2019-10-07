@@ -22,7 +22,7 @@ Manage the running container instance
     
 6. Exit the docker shell using CTRL+C
 
-    `exit`{{execute interrupt}}
+    `exit`{{execute}}
 
     
 

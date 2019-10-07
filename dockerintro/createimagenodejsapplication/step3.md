@@ -36,4 +36,4 @@ console.log(`Running on http://${HOST}:${PORT}`);
     
 10. Press CTRL+C in the terminal window to kill the nodejs app to continue
     
-    `clear`{{execute}}
+    `clear`{{execute interrupt}}
