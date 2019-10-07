@@ -22,7 +22,7 @@ Create the nodejs appliation
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "run": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.1"
