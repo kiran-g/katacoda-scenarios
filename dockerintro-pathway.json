@@ -3,7 +3,7 @@
   "description": "Introduction to docker",
   "courses": [
     {
-      "course_id": "createimage",
+      "course_id": "createimagecapplication",
       "title": "How to prepare a docker image for a binary application using Dockerfile",
       "description": ""
     }
