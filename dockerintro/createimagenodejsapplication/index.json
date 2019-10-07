@@ -1,6 +1,6 @@
 {
-  "title": "Create a compiled \"C\" application docker image using Dockerfile",
-  "description": "Steps to create the docker image for a binary application without any external runtime requirements",
+  "title": "Create a nodejs application docker image using Dockerfile",
+  "description": "Steps to create the docker image for a nodejs application with the nodejs runtime as well as npm dependencies",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
