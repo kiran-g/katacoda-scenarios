@@ -1,4 +1,4 @@
-Manage the running container instance
+Edit a file in the running container instance
 1. List running containers
 
     `docker ps`{{execute}}
