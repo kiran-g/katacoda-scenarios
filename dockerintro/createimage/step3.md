@@ -7,11 +7,19 @@ Create an empty Makefile
 Copy the following code into it:
 ~~~~
 all:
-	gcc -o hello -static hello.c
+    	gcc -o hello -static hello.c
 ~~~~
 
+`all:
+    	gcc -o hello -static hello.c`
+
+`all:
+	gcc -o hello -static hello.c`
+    	
 Copy the following code into it:
 <pre class="file" data-target="clipboard">
 all:
 &emsp;gcc -o hello -static hello.c
 </pre>
+
+
