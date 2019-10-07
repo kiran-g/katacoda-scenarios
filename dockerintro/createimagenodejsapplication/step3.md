@@ -7,7 +7,7 @@ Create the nodejs appliation Part 2
 
 7. Copy the following code into this file
 
-    <pre class="file" data-target="clipboard">
+<pre class="file" data-target="clipboard">
 'use strict';
 
 const express = require('express');
@@ -19,12 +19,12 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world from Nodejs\n');
+res.send('Hello world from Nodejs\n');
 });
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
-    </pre>
+</pre>
 
 8. Test the application
 

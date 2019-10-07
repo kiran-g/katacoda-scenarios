@@ -6,7 +6,7 @@ Create a docker image with the nodejs application part 1
  
 2. Copy the following code into it:
 
-    <pre class="file" data-target="clipboard">
+<pre class="file" data-target="clipboard">
 FROM node:10
 
 # Create app directory
@@ -26,7 +26,7 @@ COPY files/ .
 
 EXPOSE 80
 CMD [ "node", "server.js" ]
-    </pre>
+</pre>
 
 
 
