@@ -34,3 +34,5 @@ Create the nodejs appliation Part 2
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
     
+10. Press CTRL+C to kill the nodejs app to continue
+    
