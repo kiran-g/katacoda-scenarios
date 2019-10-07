@@ -1,4 +1,4 @@
-Build it using Makfile
+Build the C application using Makfile
 ## Task
 
 Create an empty Makefile
