@@ -3,9 +3,11 @@ Manage the running container instance
 
     `docker ps`{{execute}}
     
-2. Excute shell in running contexainer 
+2. Fine the container id 
+    `CID=$(docker ps -lq)`{{execute}}
+Excute shell in running contexainer 
 
-    `docker exec -it CONTAINER_ID   /bin/bash`{{execute}}    
+    `docker exec -it $CID   /bin/sh`{{execute}}    
     Note: Navigate the flesysten and view the files
 
 
