@@ -5,5 +5,8 @@ Clone our example repository that contains the set of documentation with the fol
 
 `apt install docker`{{execute}}
 
+Verify docker installation
 
 `docker --version`{{execute}}
+
+
