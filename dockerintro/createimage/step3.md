@@ -12,3 +12,6 @@ all:
 
 Now build the application:
 `make`{{execute}}
+
+Test the application by running it:
+`./hello`{{execute}}
