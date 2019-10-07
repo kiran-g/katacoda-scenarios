@@ -24,10 +24,17 @@
     "finish": {
       "text": "finish.md"
     },
-    "assets": { "client": [ {"file": "Makefile", "target": "/root"} ] }
+    "assets": {
+      "client": [
+          {"file": "Makefile", "target": "/root/code"}
+      ]
+    }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/code",
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
     "imageid": "ubuntu"
