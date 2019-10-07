@@ -6,6 +6,11 @@
       "course_id": "createimagecapplication",
       "title": "How to prepare a docker image for a binary application using Dockerfile",
       "description": ""
+    },
+    {
+      "course_id": "createimagenodejsapplication",
+      "title": "How to prepare a docker image for a basic nodejs application with npm dependencies",
+      "description": ""
     }
   ]
 }
