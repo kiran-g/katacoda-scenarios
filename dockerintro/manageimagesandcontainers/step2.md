@@ -7,20 +7,23 @@ Manage the running container instance
 
     `CID=$(docker ps -lq)`{{execute}}
     
-3. Excute shell in running contexainer 
+3. Excute shell in the running container 
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
     Note: Navigate the flesysten and view the files and processes
+    
 4. Create a new HTML file inside the docker container and add some random text
 
     `echo "WEBTEST" > /usr/share/nginx/html/index1.html`{{execute}}
+    
+    Note: This command is executed inside the container
     
 5. Now try accessing the webpage at:
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index1.html
     
-6. Exit the docker shell using 'exit' command
+6. Exit the docker container's shell using 'exit' command
 
     `exit`{{execute}}
 
