@@ -46,7 +46,7 @@ Create the nodejs appliation
 const express = require('express');
 
 // Constants
-const PORT = 8080;
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 // App
