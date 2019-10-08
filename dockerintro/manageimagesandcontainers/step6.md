@@ -8,7 +8,7 @@ Mount  a volume with the container
 
     `echo "VOLUMETEST" > /root/volume/index3.html`{{execute}}
     
-3. Run the new image again with t
+3. Run the new image again with the this directory mounted as a volume on the nginx  web root 
 
     `docker run -d -p 80:80 -v /root/volume/:/usr/share/nginx/html/  nginx-new`{{execute}} 
 
@@ -20,6 +20,14 @@ Mount  a volume with the container
 
     `docker stop  $(docker ps -lq)`{{execute}}
 
-6. Remove the conatiner 
+6. Remove the container 
 
     `docker rm  $(docker ps -lq)`{{execute}}     
+ 
+7. Remove the image 
+
+    `docker rmi  nginx-new`{{execute}}
+ 
+8. Verify in image list
+
+    `docker images`{{execute}}
