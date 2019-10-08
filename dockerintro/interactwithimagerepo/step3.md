@@ -17,3 +17,7 @@ Push the new image to the repository
     `docker rmi nginx-new`{{execute}}
     
     `docker rmi localhost:5000/nginx-new`{{execute}}
+
+4. Verify that the new image doesn't exist locally 
+
+   `docker images`{{execute}}
