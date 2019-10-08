@@ -1,5 +1,6 @@
-Run a local registry/reposotory in host 1. Install and run an nginx image on host 2
-Note: Getting the credentials for public docker registry with write access for this scenario was hard. So instead we are hosting our own  private registry in the same host
+Run a local registry/reposotory in the host machine. Install and run an nginx image on the same host
+
+Note: Getting the credentials with write access for a public docker registry  for this scenario was hard. So instead we are hosting our own  private registry in the same host
 
 1. Run the repo/registry server on the host as a docker container (pull from  dockerhub)
     
