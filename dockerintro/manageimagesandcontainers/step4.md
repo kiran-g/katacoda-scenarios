@@ -20,6 +20,6 @@ Commit changes made to a running container part 2
 
     `docker rm  $CID`{{execute}}
 
-3. Check the container status again
+3. Check the container status again and confirm that the conatiner is removed
 
     `docker ps -a | grep  $CID`{{execute}}

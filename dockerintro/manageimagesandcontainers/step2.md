@@ -26,6 +26,7 @@ Edit a file in the running container instance
 6. Exit the docker container's shell using 'exit' command
 
     `exit`{{execute}}
+    Note: Do not click this again after the container shell exists. It will kill the host shell and stop the scenario
  
 7. Stop the container
 

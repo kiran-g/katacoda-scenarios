@@ -28,6 +28,6 @@ Mount  a volume with the container
 
     `docker rmi  nginx-new`{{execute}}
  
-8. Verify in image list
+8. Verify in image list to confirm that the image is removed
 
     `docker images`{{execute}}

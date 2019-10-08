@@ -1,6 +1,6 @@
 Start a container from the new image
 
-1. Check the history of the new image
+1. Check the history of the new image and verify the latest commit
 
     `docker history nginx-new`{{execute}}
 
