@@ -2,7 +2,7 @@ Commit changes made to a running container part 2
 
 1. Commit the changes to a new image
 
-    `docker commit $CID nginx-new`{{execute}}
+    `docker commit --author "Katacoda Scenario" --message "Added web page" $CID nginx-new`{{execute}}
 
 2. Check the container details
 
