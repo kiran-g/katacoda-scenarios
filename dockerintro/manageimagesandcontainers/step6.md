@@ -2,15 +2,15 @@ Mount  a volume with the container
 
 1. Create a new directory at "/root/volume"
 
-    `mkdir /root/volume`{{execute}}
+    `mkdir /root/code/volume`{{execute}}
     
 2. Create an HTML file inside it
 
-    `echo "VOLUMETEST" > /root/volume/index3.html`{{execute}}
+    `volume/index3.html`{{open}} (Click here to create the file and then add some text) 
     
 3. Run the new image again with the this directory mounted as a volume on the nginx  web root 
 
-    `docker run -d -p 80:80 -v /root/volume/:/usr/share/nginx/html/  nginx-new`{{execute}} 
+    `docker run -d -p 80:80 -v /root/code/volume/:/usr/share/nginx/html/  nginx-new`{{execute}} 
 
 4. Verify the webpage at:
 

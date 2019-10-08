@@ -16,7 +16,7 @@ Commit changes made to a running container  part 1
      
 4. Create an HTML file and copy it to the running container:
 
-    `index2.html`{{open}} (Click here to create the file)  
+    `index2.html`{{open}} (Click here to create the file and then add some text)  
     
     `docker cp   code/index2.html $CID:/usr/share/nginx/html/`{{execute}}
     
