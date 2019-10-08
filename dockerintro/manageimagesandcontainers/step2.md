@@ -3,7 +3,7 @@ Edit a file in the running container instance
 
     `docker ps`{{execute}}
     
-2. Find the container id 
+2. Find the container id of the most recently started container
 
     `CID=$(docker ps -lq)`{{execute}}
     
@@ -11,7 +11,7 @@ Edit a file in the running container instance
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
-    Note: Navigate the flesysten and view the files and processes
+    Note: Navigate the filesystem and view the files and processes inside the container
     
 4. Create a new HTML file inside the docker container and add some random text
 
