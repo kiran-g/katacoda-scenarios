@@ -1,6 +1,6 @@
 {
-  "title": "Create a nodejs application docker image using Dockerfile",
-  "description": "Steps to create the docker image for a nodejs application with the nodejs runtime as well as npm dependencies",
+  "title": "Steps to interact with a docker registry/repository",
+  "description": "",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
