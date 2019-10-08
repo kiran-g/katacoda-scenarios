@@ -1,40 +1,15 @@
-Create the nodejs appliation Part 2
+Push the new image to the repository
 
+1. Tag the new image to point to the repository/registry
 
-6. Create the main nodejs application file
-
-    `files/server.js`{{open}} (Click here)
-
-7. Copy the following code into this file
-
-<pre class="file" data-target="clipboard">
-'use strict';
-
-const express = require('express');
-
-// Constants
-const PORT = 80;
-const HOST = '0.0.0.0';
-
-// App
-const app = express();
-app.get('/', (req, res) => {
-res.send('Hello world from Nodejs\n');
-});
-
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
-</pre>
-
-8. Test the application
-
-    `node server.js`{{execute}}
+    `docker tag ubuntu:16.04 host01:5000/nginx-new`{{execute HOST2}}
     
-9. Access the sample webapp in browser
+2. Push the image to the repository
 
-    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+    `docker push host01:5000/nginx-new`{{execute HOST2}}
     
-10. Kill the nodejs app to continue. See if clicking below works. Else manually click CTRL+C
-    
-    `clear`{{execute interrupt}}
+3. Stop and remove the container and then the image
 
+    `docker stop $CID`{{execute HOST2}}
+    `docker rm $CID`{{execute HOST2}}
+    `docker rmi nginx-new`{{execute HOST2}}

@@ -1,37 +1,17 @@
-Create the nodejs appliation Part 1
+Update the image
 
-1. First 'cd' into the code directory
+1. Find the container id of the most recently started container
 
-    `cd /root/code`{{execute}}
+    `CID=$(docker ps -lq)`{{execute HOST2}}
+    
+2. Create an HTML file and copy it to the running container:
 
-2. Create the nodejs application folder
+    `echo "TEST" > index2.html `{{execute HOST2}}  
+    
+    `docker cp   index2.html $CID:/usr/share/nginx/html/`{{execute HOST2}}
+    
+3. Commit the changes to a new image
 
-    `mkdir files; cd files`{{execute}}
+    `docker commit --author "Katacoda Scenario" --message "Added web page" $CID nginx-new`{{execute HOST2}}    
  
-3. Create 'package.json' file 
-
-    `files/package.json`{{open}} (Click here)
-
-4. Copy the following code into this file
-
-<pre class="file" data-target="clipboard">
-{
-"name": "docker_web_app",
-"version": "1.0.0",
-"description": "Node.js on Docker",
-"author": "First Last <first.last@example.com>",
-"main": "server.js",
-"scripts": {
-"start": "node server.js"
-},
-"dependencies": {
-"express": "^4.16.1"
-}
-}
-</pre>
-
-5. Install the npm dependencies 
-
-    `npm install`{{execute}}
-
 
