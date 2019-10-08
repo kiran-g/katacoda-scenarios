@@ -6,7 +6,7 @@ Pull the new image from the local repository
  
 2. Run the image
 
-    `docker run localhost:5000/nginx-new`{{execute}}
+    `docker run -d -p 80:80  localhost:5000/nginx-new`{{execute}}
     
 3. Verify by accessing the webpage at:
 
