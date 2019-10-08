@@ -16,7 +16,12 @@
       "course_id": "manageimagesandcontainers",
       "title": "How to manage docker images and containers",
       "description": ""
-    }    
+    }  ,
+    {
+      "course_id": "interactwithimagerepo",
+      "title": "How to interact with docker image repositories",
+      "description": ""
+    }  
     
   ]
 }
