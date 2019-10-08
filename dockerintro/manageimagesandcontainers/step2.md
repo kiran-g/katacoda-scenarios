@@ -16,6 +16,7 @@ Edit a file in the running container instance
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
+    Note: This is a new container shell, NOT the host shell we were working with until now
     Note: Navigate the filesystem and view the files and processes inside the container. 
     Check the web root of the webserver
     
