@@ -4,6 +4,8 @@ Create a docker image with the nodejs application part 2
     
     `.dockerignore`{{open}} (Click here)
     
+    Note: This file specifies the files which needs to be skipped when copying files to the image
+    
 2. Copy the following content into the file
 
 <pre class="file" data-target="clipboard">
