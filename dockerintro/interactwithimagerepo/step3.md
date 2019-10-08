@@ -2,7 +2,7 @@ Push the new image to the repository
 
 1. Tag the new image to point to the repository/registry
 
-    `docker tag ubuntu:16.04 host01:5000/nginx-new`{{execute HOST2}}
+    `docker tag nginx-new host01:5000/nginx-new`{{execute HOST2}}
     
 2. Push the image to the repository
 

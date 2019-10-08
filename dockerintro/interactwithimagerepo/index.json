@@ -34,11 +34,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal",
     "hideintro": true,
     "hidefinish": false
   },
   "backend": {
-    "imageid": "docker-swarm"
+    "imageid": "ubuntu"
   }
 }
