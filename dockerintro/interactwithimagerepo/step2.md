@@ -2,7 +2,7 @@ Update the image
 
 1. Find the container id of the most recently started container
 
-    `CID=$(docker ps -lq)`{{execute HOST2}}
+    `CID=$(docker ps -lq)`{{execute}}
     
 2. Create an HTML file and copy it to the running container:
 

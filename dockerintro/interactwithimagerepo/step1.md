@@ -1,6 +1,6 @@
 Run a local registry/reposotory in host 1. Install and run an nginx image on host 2
 
-1. Install the repo/registry 
+1. Run the repo/registry server on the host as a docker container 
     
     `docker run -d -p 5000:5000 --restart=always --name registry registry:2`{{execute}}
 
