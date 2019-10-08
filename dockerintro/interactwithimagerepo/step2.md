@@ -9,11 +9,12 @@ Update the image
     `echo "REPOTEST" > index2.html `{{execute}}  
     
     `docker cp   index2.html $CID:/usr/share/nginx/html/`{{execute}}
+    
 3. Verify by accessing the webpage at:
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index2.html   
     
-4. Commit the changes to a new image
+4. Commit the changes to a new image named "nginx-new"
 
     `docker commit --author "Katacoda Scenario" --message "Added web page" $CID nginx-new`{{execute}}    
  

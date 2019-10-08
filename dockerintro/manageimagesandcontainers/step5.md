@@ -8,7 +8,7 @@ Start a container from the new image
 
     `docker run -d -p 80:80  nginx-new`{{execute}}    
     
-3. Verify that the changed commited to the image is available in the container
+3. Verify that the changes commited to the new image is available in the container
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index2.html
    

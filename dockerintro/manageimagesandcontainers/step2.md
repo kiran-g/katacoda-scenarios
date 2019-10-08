@@ -1,4 +1,5 @@
 Edit a file in the running container instance
+
 1. List running containers
 
     `docker ps`{{execute}}
@@ -7,7 +8,7 @@ Edit a file in the running container instance
 
     `CID=$(docker ps -lq)`{{execute}}
     
-3. Excute shell in the running container 
+3. Excute the shell in the running container 
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
@@ -26,6 +27,7 @@ Edit a file in the running container instance
 6. Exit the docker container's shell using 'exit' command
 
     `exit`{{execute}}
+    
     Note: Do not click this again after the container shell exists. It will kill the host shell and stop the scenario
  
 7. Stop the container

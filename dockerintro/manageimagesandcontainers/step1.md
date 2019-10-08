@@ -20,6 +20,8 @@ Docker install and run nginx webserver image and view the default webpage
 
     `docker history nginx:alpine`{{execute}}
     
+    Note: This shows the commit history of this image
+    
 4. Run the image        
 
     `docker run -d -p 80:80  nginx:alpine`{{execute}}

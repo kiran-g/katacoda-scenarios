@@ -19,14 +19,14 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-res.send('Hello world from Nodejs\n');
+    res.send('Hello world from Nodejs\n');
 });
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
 </pre>
 
-8. Test the application
+8. Test the application in the host machine
 
     `node server.js`{{execute}}
     
@@ -34,7 +34,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
     https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
     
-10. Kill the nodejs app to continue. See if clicking below works. Else manually click CTRL+C
+10. Kill the nodejs app to continue. See if clicking below works. Else manually click CTRL+C in the terminal
     
     `clear`{{execute interrupt}}
 

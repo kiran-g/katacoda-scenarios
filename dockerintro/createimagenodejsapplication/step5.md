@@ -3,7 +3,9 @@ Create a docker image with the nodejs application part 2
 1. Create a '.dockerignore' file in the same directory as your Dockerfile
     
     `.dockerignore`{{open}} (Click here)
+    
 2. Copy the following content into the file
+
 <pre class="file" data-target="clipboard">
 node_modules
 npm-debug.log
@@ -24,6 +26,8 @@ npm-debug.log
 5. Run this image as a container:
 
     `docker run -p 80:80 node-web-app`{{execute}}
+    
+    Note: "-p 80:80" option, maps port 80 from inside the container to the host port 80, thus exposing the application outside the container
     
 6. Access the sample webapp in browser
 
