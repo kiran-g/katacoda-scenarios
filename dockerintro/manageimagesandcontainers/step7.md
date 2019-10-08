@@ -20,3 +20,4 @@ Start a container from the new image
 
     `docker rm  $(docker ps -lq)`{{execute}}      
 
+
