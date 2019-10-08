@@ -11,5 +11,9 @@ Push the new image to the repository
 3. Stop and remove the container and then the image
 
     `docker stop $CID`{{execute}}
+    
     `docker rm $CID`{{execute}}
+    
     `docker rmi nginx-new`{{execute}}
+    
+    `docker rmi localhost:5000/nginx-new`{{execute}}
