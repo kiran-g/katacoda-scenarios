@@ -4,7 +4,7 @@ Docker install and run nginx webserver image and view the default webpage
 
     `docker images`{{execute}}
 
-2. Pull nginx webserver image
+2. Pull nginx(a lightweight static webserver) webserver image 
 
     `docker pull nginx:alpine`{{execute}}
     
