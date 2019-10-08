@@ -1,6 +1,6 @@
 Mount  a volume with the container
 
-1. Create a new directory at "/root/volume"
+1. Create a new directory at "/root/code/volume" in the host machine
 
     `mkdir /root/code/volume`{{execute}}
     
@@ -8,7 +8,7 @@ Mount  a volume with the container
 
     `volume/index3.html`{{open}} (Click here to create the file and then add some text) 
     
-3. Run the new image again with the this directory mounted as a volume on the nginx  web root 
+3. Run the new image again with the this host directory mounted as a volume on the nginx  web root of the container 
 
     `docker run -d -p 80:80 -v /root/code/volume/:/usr/share/nginx/html/  nginx-new`{{execute}} 
 
