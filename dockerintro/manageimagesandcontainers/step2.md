@@ -16,7 +16,10 @@ Edit a file in the running container instance
 
     `docker exec -it $CID   /bin/sh`{{execute}}    
     
-    Note: Navigate the filesystem and view the files and processes inside the container
+    Note: Navigate the filesystem and view the files and processes inside the container. 
+    Check the web root of the webserver
+    
+    `ls /usr/share/nginx/html/`{{execute}}
     
 5. Create a new HTML file inside the docker container and add some random text
 
