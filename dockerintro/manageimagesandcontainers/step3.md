@@ -1,4 +1,4 @@
-Commit changes made to a running container
+Commit changes made to a running container  part 1
 
 1. Run the image again     
 

@@ -1,26 +1,20 @@
-Create a docker image with the nodejs application part 2
+Start a container from the new image
 
-1. Create a '.dockerignore' file in the same directory as your Dockerfile
+1. Check the history of the new image
+
+    `docker history nginx-new`{{execute}}
+
+2. Run the new image
+
+    `docker run -d -p 80:80  nginx-new`{{execute}}    
     
-    `.dockerignore`{{open}} (Click here)
-2. Copy the following content into the file
-<pre class="file" data-target="clipboard">
-node_modules
-npm-debug.log
-</pre>
+3. Verify that the changed commited to the image is available in the container
 
-4. Return to the main directory
+    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/index2.html
+   
+4. Stop the conatiner 
+
+    `docker stop  $(docker ps -lq)`{{execute}}
+
+      
     
-    `cd ..`{{execute}}
-    
-3. Now build the docker image using the following command:
-
-    `docker build --tag node-web-app .`{{execute}}
-
-4. Run this image as a container:
-
-    `docker run -p 80:80 node-web-app`{{execute}}
-    
-9. Access the sample webapp in browser
-
-    https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/

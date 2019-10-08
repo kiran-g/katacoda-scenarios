@@ -1,33 +1,17 @@
-Create a docker image with the nodejs application part 1
+Commit changes made to a running container part 2
 
-1. Create an empty Dockerfile
+1. Commit the changes to a new image
 
-    `Dockerfile`{{open}} (Click here)
+    `docker commit $CID nginx-new`{{execute}}
+
+2. Check the container details
+
+    `docker inspect  $CID`{{execute}}
+
+3. Stop the container
+
+    `docker stop  $CID`{{execute}}
  
-2. Copy the following code into it:
+4. Remove the container 
 
-<pre class="file" data-target="clipboard">
-FROM node:10
-
-# Create app directory
-WORKDIR /usr/src/app
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY files/package*.json ./
-
-RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
-
-# Bundle app source
-COPY files/ .
-
-EXPOSE 80
-CMD [ "node", "server.js" ]
-</pre>
-
-
-
-
+    `docker rm  $CID`{{execute}}

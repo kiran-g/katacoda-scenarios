@@ -11,6 +11,14 @@ Docker install and run nginx webserver image and view the default webpage
 3. Verify that the new image is downloded    
 
     `docker images`{{execute}}
+
+4. Inspect the image
+
+    `docker image inspect  nginx:alpine`{{execute}}
+  
+5. Check the history of the image
+
+    `docker history nginx:alpine`{{execute}}
     
 4. Run the image        
 
