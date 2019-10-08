@@ -6,7 +6,7 @@ Update the image
     
 2. Create an HTML file and copy it to the running container:
 
-    `echo "TEST" > index2.html `{{execute}}  
+    `echo "REPOTEST" > index2.html `{{execute}}  
     
     `docker cp   index2.html $CID:/usr/share/nginx/html/`{{execute}}
 3. Verify by accessing the webpage at:
