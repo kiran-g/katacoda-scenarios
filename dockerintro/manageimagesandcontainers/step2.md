@@ -26,6 +26,10 @@ Edit a file in the running container instance
 6. Exit the docker container's shell using 'exit' command
 
     `exit`{{execute}}
+ 
+7. Stop the container
+
+    `docker stop  $CID`{{execute}}
 
     
 
