@@ -1,0 +1,27 @@
+{
+  "title": "Docker Intro",
+  "description": "Introduction to docker",
+  "courses": [
+    {
+      "course_id": "createimagecapplication",
+      "title": "How to prepare a docker image for a binary application using Dockerfile",
+      "description": ""
+    },
+    {
+      "course_id": "createimagenodejsapplication",
+      "title": "How to prepare a docker image for a basic nodejs application with npm dependencies",
+      "description": ""
+    } ,
+    {
+      "course_id": "manageimagesandcontainers",
+      "title": "How to manage docker images and containers",
+      "description": ""
+    }  ,
+    {
+      "course_id": "interactwithimagerepo",
+      "title": "How to interact with docker image repositorty/registry",
+      "description": ""
+    }  
+    
+  ]
+}
